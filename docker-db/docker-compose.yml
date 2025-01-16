@@ -1,0 +1,41 @@
+services:
+
+  web:
+    image: nginx:1.27
+    ports:
+      - 80:80
+    volumes:
+      - ./site.conf:/etc/nginx/conf.d/site.conf
+    depends_on:
+      - php
+      - mariadb
+
+  php:
+    image: php:8.2-fpm
+    volumes:
+      - ./php.ini:/usr/local/etc/php/php.ini
+    depends_on:
+      - mariadb
+
+  mariadb:
+    image: mariadb:11.5.2
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - mariadb-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: azerty
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - 8001:80
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mariadb
+    depends_on:
+      - mariadb
+
+volumes:
+  mariadb-data:

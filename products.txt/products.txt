@@ -1,0 +1,126 @@
+Nom
+Prix
+Description
+Stock
+Photo
+Catégorie
+Dell Inspiron
+1099.99
+Ordinateur portable performant pour le travail et les loisirs
+5
+ordi.jpg
+Ordinateur portable
+HP Pavilion
+849.50
+Ordinateur portable polyvalent et élégant
+3
+ordi.jpg
+Ordinateur portable
+Asus Zenbook
+1299.00
+Ultrabook léger et puissant
+7
+ordi.jpg
+Ordinateur portable
+Lenovo Thinkpad
+999.00
+Ordinateur portable robuste pour les professionnels
+10
+ordi.jpg
+Ordinateur portable
+Acer Aspire
+749.99
+Ordinateur portable adapté pour les étudiants
+12
+ordi.jpg
+Ordinateur portable
+Samsung Monitor
+249.90
+Écran haute résolution adapté aux professionnels et aux gamers
+8
+ordi.jpg
+Périphérique
+Logitech Souris
+29.99
+Souris ergonomique sans fil
+15
+ordi.jpg
+Accessoire
+Corsair Clavier
+89.50
+Clavier mécanique rétroéclairé pour gamers
+4
+ordi.jpg
+Accessoire
+Microsoft Surface
+1199.00
+Ordinateur portable hybride, portable et tablette
+6
+ordi.jpg
+Ordinateur portable
+Apple Macbook
+1399.00
+Ultrabook haut de gamme avec écran Retina
+5
+ordi.jpg
+Ordinateur portable
+Razer Gaming Souris
+59.99
+Souris gaming avec capteur haute précision
+9
+ordi.jpg
+Accessoire
+SteelSeries Clavier
+99.99
+Clavier gaming avec retours haptiques
+7
+ordi.jpg
+Accessoire
+LG UltraFine
+499.99
+Moniteur 4K pour créateurs de contenu
+3
+ordi.jpg
+Périphérique
+Canon Imprimante
+199.00
+Imprimante multifonction couleur
+11
+ordi.jpg
+Périphérique
+Brother Scanner
+149.00
+Scanner de documents haute vitesse
+8
+ordi.jpg
+Périphérique
+Seagate Disque Dur
+89.99
+Disque dur externe 2 To pour sauvegardes
+14
+ordi.jpg
+Périphérique
+Western Digital SSD
+129.99
+SSD interne 1 To pour ordinateurs
+10
+ordi.jpg
+Périphérique
+Kingston RAM
+79.99
+Module mémoire DDR4 16 Go
+20
+ordi.jpg
+Accessoire
+Intel Core
+299.99
+Processeur puissant pour ordinateurs de bureau
+6
+ordi.jpg
+Accessoire
+AMD Ryzen
+279.99
+Processeur de bureau performant pour gaming et création
+5
+ordi.jpg
+Accessoire
