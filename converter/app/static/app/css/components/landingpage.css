@@ -1,0 +1,83 @@
+/* Réinitialisation de quelques styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Définition de l'arrière-plan et centrage du contenu */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    line-height: 1.6;
+    
+    /* Arrière-plan */
+    background: url('votre-image-de-fond.jpg') no-repeat center center fixed;
+    background-size: cover;
+  
+    /* Utilisation de flexbox pour centrer verticalement et horizontalement */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+    /* Centrer le contenu horizontalement */
+    align-items: center;
+    /* Centrer le contenu verticalement en occupant tout l'écran */
+    justify-content: center;
+  }
+  
+  /* En-tête */
+  header {
+    background-color: rgba(0, 64, 128, 0.8); /* fond semi-transparent pour lisibilité */
+    color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  /* Section principale */
+  main {
+    margin-bottom: 20px;
+  }
+  
+  .cta {
+    margin: 20px 0;
+  }
+  
+  /* Boutons */
+  .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0059b3;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #003d80;
+  }
+  
+  
+  footer {
+    background-color: rgba(224, 224, 224, 0.8); 
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

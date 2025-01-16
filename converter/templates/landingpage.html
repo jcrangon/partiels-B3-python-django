@@ -1,0 +1,22 @@
+{% extends 'layouts/layout-full-width.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block contentFullWidth %}
+<header>
+    <h1>Bienvenue à l'examen partiel Python-Django </h1>
+    <p>B3 DEV</p>
+    <p>Préparez-vous pour l'excellence à Digital Campus.</p>
+  </header>
+
+  <main>
+    <section class="cta">
+      <a href="/inscription.html" class="btn">S'inscrire</a>
+      <a href="/login" class="btn">Se connecter</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© {{ current_year }} Digital Campus. Tous droits réservés.</p>
+  </footer>
+{% endblock %}
