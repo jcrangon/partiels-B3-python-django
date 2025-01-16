@@ -1,63 +1,10 @@
-/* Appliquer un style de base à la page */
-body {
-    background: #f2f2f2;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-/* Conteneur du formulaire de connexion */
-.login-container {
-    background: #fff;
-    padding: 2em;
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0059b3;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 300px;
-}
-
-/* Style du titre */
-.login-container h2 {
-    text-align: center;
-    margin-bottom: 1em;
-    color: #333;
-}
-
-/* Style des groupes de champs */
-.form-group {
-    margin-bottom: 1em;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 0.5em;
-    color: #555;
-}
-
-.form-group input[type="text"],
-.form-group input[type="password"] {
-    width: 100%;
-    padding: 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-}
-
-/* Style du bouton de soumission */
-button[type="submit"] {
-    width: 100%;
-    padding: 0.7em;
-    border: none;
-    border-radius: 3px;
-    background: #007BFF;
-    color: white;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-button[type="submit"]:hover {
-    background: #0056b3;
-}
+    transition: background-color 0.3s ease;
+  }

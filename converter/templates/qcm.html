@@ -1,0 +1,54 @@
+{% extends 'layouts/layout-full-width.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block contentFullWidth %}
+<header>
+    <h1>QCM Python</h1>
+    <p>Répondez aux questions en modifiant directement le code.</p>
+</header>
+
+<main>
+    <form class="qcm">
+      <div class="question">
+        <p><strong>1. Quelle est la sortie de la commande suivante ? <code>print(2 ** 3)</code></strong></p>
+        <label><input type="radio" name="q1" value="6" disabled> 6</label><br>
+        <label><input type="radio" name="q1" value="8" disabled> 8</label><br>
+        <label><input type="radio" name="q1" value="9" disabled> 9</label>
+      </div>
+
+      <div class="question">
+        <p><strong>2. Quel mot-clé est utilisé pour créer une fonction en Python ?</strong></p>
+        <label><input type="radio" name="q2" value="func" disabled> func</label><br>
+        <label><input type="radio" name="q2" value="define" disabled> define</label><br>
+        <label><input type="radio" name="q2" value="def" disabled> def</label>
+      </div>
+
+      <div class="question">
+        <p><strong>3. Quelle structure de données est mutable en Python ?</strong></p>
+        <label><input type="radio" name="q3" value="tuple" disabled> tuple</label><br>
+        <label><input type="radio" name="q3" value="list" disabled> list</label><br>
+        <label><input type="radio" name="q3" value="string" disabled> string</label>
+      </div>
+
+      <div class="question">
+        <p><strong>4. Quel est le résultat de <code>len("Python")</code> ?</strong></p>
+        <label><input type="radio" name="q4" value="5" disabled> 5</label><br>
+        <label><input type="radio" name="q4" value="6" disabled> 6</label><br>
+        <label><input type="radio" name="q4" value="7" disabled> 7</label>
+      </div>
+
+      <div class="question">
+        <p><strong>5. Comment déclare-t-on un commentaire sur une seule ligne en Python ?</strong></p>
+        <label><input type="radio" name="q5" value="//" disabled> //</label><br>
+        <label><input type="radio" name="q5" value="#" disabled> #</label><br>
+        <label><input type="radio" name="q5" value="/*" disabled> /*</label>
+      </div>
+
+      <p class="notice">Note : Pour répondre, modifiez directement le code HTML en sélectionnant le bon bouton radio (attribut 'checked').</p>
+    </form>
+    <section class="qcm cta">
+        <a href="/" class="btn">Retour à l'accueil</a>
+    </section>
+  </main>
+{% endblock %}

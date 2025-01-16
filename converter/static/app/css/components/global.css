@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    line-height: 1.6;
+    background: url('votre-image-de-fond.jpg') no-repeat center center fixed;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background-color: rgba(224, 224, 224, 0.8);
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }

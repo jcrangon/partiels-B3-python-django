@@ -13,3 +13,9 @@ def login(request):
         "title": "Login",
     }
     return render(request, "login.html", data)
+
+def qcm(request):
+    data = {
+        "title": "Qcm",
+    }
+    return render(request, "qcm.html", data)
