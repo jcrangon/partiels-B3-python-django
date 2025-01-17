@@ -8,7 +8,7 @@ def landingpage(request):
     }
     return render(request, "landingpage.html", data)
 
-def login(request):
+def login_view(request):
     data = {
         "title": "Login",
     }
